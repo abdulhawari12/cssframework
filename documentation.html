@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/cssframe.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all" />
+    <title>Documentation</title>
+  </head>
+<body class="padding-top-70">
+    <nav class="navigation bg-ungu-muda">
+      <div class="logo">
+        <a href="index.html" class="logo-img"><img src="assets/logo.png"/></a>
+        <a href="index.html" class="logo-title">CSS FRAMEWORK</a>
+      </div>
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-left">
+        <ul>
+          <li class="items">
+            <a href="index.html" class="items-title">Home</a>
+          </li>
+          <li class="items active">
+            <a href="documentation.html" class="items-title">Documentation</a>
+          </li>
+          <li class="items">
+            <a href="#" class="items-title">Example</a>
+          </li>
+          <li class="items">
+            <a href="#" class="items-title">About Us</a>
+          </li>
+          <li class="items">
+            <a href="#" class="items-title">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h3 class="main-title text-ungu-muda size-18">Komponen</h3>
+      <p class="paragraph mt-1">Ada apa saja komponen-komponen tersebut yang ada di dalam <span class="text-ungu-muda size-16 font-regular">CSS FRAMEWORK</span> ini ? Lihat daftar list berikut ini :</p>
+      <p class="paragraph mt-1 size-16">
+        <ul class="text-ungu-muda">
+          <li class="list"><a href="#nav">Navigation</a></li>
+          <li class="list"><a href="#button">Button</a></li>
+          <li class="list"><a href="#menu">Menu</a></li>
+          <li class="list"><a href="#card">Card</a></li>
+          <li class="list"><a href="#modal">Modal</a></li>
+          <li class="list"><a href="#form">Form Validasi</a></li>
+          <li class="list"><a href="#tooltips">Tooltips</a></li>
+          <li class="list"><a href="#links">Links</a></li>
+          <li class="list"><a href="#footer">Footer</a></li>
+          <li class="list"><a href="#custom">Customize</a></li>
+        </ul>
+      </p>
+      <div class="container-fluid padding-top-90" id="nav">
+        <h3 class="main-title mb-3 text-ungu-muda size-18 font-medium">Navigation</h3>
+        <p class="paragraph size-16 font-regular">Ada 3 macam navigation dengan berbagai posisi</p>
+        <h3 class="main-title text-ungu-muda size-16 font-medium mt-3">1. Navigation menu-left</h3>
+        <p class="paragraph mt-3 size-16 font-regular">cukup tuliskan script didalam tag class menu-left, contoh sebagai berikut :</p>
+        <h3 class="main-title size-18 font-regular mt-3">Input :</h3>
+        <div class="code mt-3 bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">
+            &lt;nav class="navigation"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="logo"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-img&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/logo.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-title"&gt;
+          </p>
+          <p class="paragraph size-16">
+            CSS FRAMEWORK
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="toggle"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="menu-left"&gt;
+          <p class="paragraph size-16">
+            &lt;ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items active"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Home&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;About Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Contact Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/nav&gt;
+          </p>
+        </div>
+        <h3 class="main-title size-18 font-regular mt-3">Output :</h3>
+        <iframe src="https://abdulhawari12.github.io/nav-menu-left/" class="mt-3 height-5 border-none radius-10 shadow" id="frame3" name="frame3"></iframe>
+        <h3 class="main-title text-ungu-muda size-16 font-medium mt-3">2. Navigation menu-right</h3>
+        <p class="paragraph mt-3 size-16 font-regular">Begitu juga dengan  menu-right, contoh sebagai berikut :</p>
+        <h3 class="main-title size-18 font-regular mt-3">Input :</h3>
+        <div class="code mt-3 bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">
+            &lt;nav class="navigation"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="logo"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-img&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/logo.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-title"&gt;
+          </p>
+          <p class="paragraph size-16">
+            CSS FRAMEWORK
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="toggle"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="menu-right"&gt;
+          <p class="paragraph size-16">
+            &lt;ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items active"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Home&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;About Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Contact Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/nav&gt;
+          </p>
+        </div>
+        <h3 class="main-title size-18 font-regular mt-3">Output :</h3>
+        <iframe src="https://abdulhawari12.github.io/nav-menu-right/" class="mt-3 height-5 border-none radius-10 shadow" id="frame2" name="frame2"></iframe>
+        <h3 class="main-title text-ungu-muda size-16 font-medium mt-3">3. Navigation menu-top</h3>
+        <p class="paragraph mt-3 size-16 font-regular">dan yang terakhir menu-top, contoh sebagai berikut :</p>
+        <h3 class="main-title size-18 font-regular mt-3">Input :</h3>
+        <div class="code mt-3 bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">
+            &lt;nav class="navigation"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="logo"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-img&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/logo.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="logo-title"&gt;
+          </p>
+          <p class="paragraph size-16">
+            CSS FRAMEWORK
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="toggle"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;div class="menu-top"&gt;
+          <p class="paragraph size-16">
+            &lt;ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items active"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Home&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;About Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;li class="items"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;a href="#"&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;Contact Us&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/li&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/ul&gt;
+            </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/nav&gt;
+          </p>
+        </div>
+        <h3 class="main-title size-18 font-regular mt-3">Output :</h3>
+        <iframe src="https://abdulhawari12.github.io/nav-menu-top/" class="mt-3 height-5 border-none radius-10 shadow" id="frame4" name="frame4"></iframe>
+        <p class="paragraph mt-3 size-16 font-regular mb-3">Untuk menggantikan warna background pada navigation, tambahkan script didalam class &lt;div class="menu-left bg-ungu"&gt;, lihat output dibawah ini</p>
+        <iframe src="https://abdulhawari12.github.io/nav/" class="border-none shadow radius-10 height-5" id="frame6" name=""></iframe>
+      </div>
+      <div class="container-fluid mt-5 padding-top-90" id="button">
+        <h3 class="main-title size-18 font-medium text-ungu-muda">Button</h3>
+        <p class="paragraph size-16 mt-3">
+          untuk button lihat script dibawah ini :
+        </p>
+        <h3 class="main-title size-18 font-medium mt-3 mb-3">
+          Input :
+        </h3>
+        <div class="code bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">&lt;button type="submit" name="submit" class="button-default"&gt;Button&lt;/button&gt;
+          </p>
+          <p class="paragraph mt-1 size-16">&lt;button type="submit" name="submit" class="button-default md"&gt;Button&lt;/button&gt;
+          </p>
+        </div>
+          <h3 class="main-title mb-3 mt-3 size-18 font-medium">
+            Output :
+          </h3>
+          <iframe src="https://abdulhawari12.github.io/button/" class="border-none radius-10 shadow height-2" id="frame5" name="frame5"></iframe>
+          <p class="paragraph size-16 font-regular mt-3 mb-3">
+            menambahkan background pada button &lt;button type="submit" name="submit" class="button-default bg-ungu"&gt;Button&lt;/button&gt;
+          </p>
+          <h3 class="main-title size-18 font-medium mb-3">
+            Output :
+          </h3>
+          <iframe src="https://abdulhawari12.github.io/button-bg/" class="border-none radius-10 shadow height-5" name="iframe1" id="iframe1"></iframe>
+      </div>
+      <div class="container-fluid padding-top-90" id="menu">
+        <h3 class="main-title size-18 text-ungu-muda">Menu</h3>
+        <p class="paragraph size-16 mt-3 mb-3">
+          Ada 2 macam menu yaitu :
+        </p>
+        <p class="paragraph size-16 font-bold">
+          1. menu-slider
+        </p>
+        <p class="paragraph size-16 font-regular mt-3 mb-3">
+          cara menggunakan ini cukup tulis script dibawah ini
+        </p>
+        <p class="paragraph mt-3 mb-3 size-18 font-bold">Input :</p>
+        <div class="code bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">
+            &lt;div class="menu-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-youtube"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Youtube&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-instagram"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Instagram&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-whatsapp"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Whatsapp&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-telegram"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Telegram&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Facebook&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-github"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Github&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-slider"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Twitter&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+        </div>
+        <p class="paragraph size-16 font-regular mt-3 mb-3">
+          Note : untuk Icons yang digunakan itu dari <a href="https://fontawesome.com/v4/icons/" class="link text-ungu-muda">Font-Awesome versi 4.7.0</a>, Bisa juga menggunakan icons yang lain seperti <a href="https://icons.getbootstrap.com/" class="link text-ungu-muda">Bootstrap Icons</a>, <a href="https://fonts.google.com/icons" class="link text-ungu-muda">Google Icons</a> Dan Sebagainya.
+        </p>
+        <p class="paragraph mt-3 mb-3 font-bold">Output :</p>
+        <iframe src="https://abdulhawari12.github.io/menu-slider/" class="border-none radius-10 shadow"></iframe>
+        <p class="paragraph size-16 font-bold mt-3 mb-3">2. menu-padding</p>
+        <p class="paragraph size-16 font-regular mb-3">
+          ini berbeda dengan yang diatas, apa yang berbeda? yaitu menu padding ini bisa menggunakan font icons ataupun img, menu padding akan menurun kebawah apabila content nya sudah terpenuhi dan menu ini diukur dengan padding sehingga ukurannya akan berubah bila dihover atau di klik, lihat contoh script dibawah :
+        </p>
+        <p class="paragraph size-18 font-bold mb-3">
+          Input :
+        </p>
+        <div class="code bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+          <p class="paragraph size-16">
+            &lt;div class="menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/komputer.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Komputer&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/laptop.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Laptop&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/handphone.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Handphone&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/box.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Box Music&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/headset.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Headshet&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/mouse.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Mouse&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;a href="#" class="items-menu"&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;img src="folder/keyboard.png"/&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Keyboard&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-behance"&lt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Behance&gt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;i class="fa fa-github"&gt;&lt;/i&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;span&gt;Github&lt;/span&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/a&gt;
+          </p>
+          <p class="paragraph size-16">
+            &lt;/div&gt;
+          </p>
+        </div>
+        <p class="paragraph size-18 font-bold mt-3 mb-3">Output :</p>
+        <iframe src="https://abdulhawari12.github.io/menu-wrap/" class="border-none radius-10 shadow height-3"></iframe>
+        <h3 class="main-title mt-3 mb-3 size-16 font-regular">
+          3. menu-wrap
+        </h3>
+        <p class="paragraph size-16 font-regular mb-3">
+          menu-wrap ini sama halnya dengan menu-padding tetapi perbedaan nya menu ini diukur dengan width dan height, lihat script dibawah :
+        </p>
+        <p class="paragraph mb-3 size-18 font-bold">Input :</p>
+        <div class="code bg-hitam-muda radius-10">
+          <div class="codeblock">
+            <div class="variasi">
+              <div class="var"></div>
+              <div class="var"></div>
+              <div class="var"></div>
+            </div>
+              <h3 class="main-title size-18 text-putih font-medium">HTML</h3>
+              <div class="copy"></div>
+          </div>
+        <p class="paragraph size-16">
+          &lt;div class="menu-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-github"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;github&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;facebook&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-whatsapp"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;whatsapp&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-instagram"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;instagram&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-telegram"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;telegram&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-youtube"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;youtube&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;twitter&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;i class="fa fa-dribbble"&gt;&lt;/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;dribble&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/handphone.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;handphone&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/laptop.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;laptop&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/komputer.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;komputer&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/keyboard.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;keyboard&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/box.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;box music&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/headshet.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;headshet&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;a href="#" class="items-wrap"&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;img src="folder/mouse.png"/i&gt;
+        <p class="paragraph size-16">
+          &lt;span&gt;mouse&lt;/span&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/a&gt;
+        </p>
+        <p class="paragraph size-16">
+          &lt;/div&gt;
+        </p>
+      </div>
+      <p class="paragraph mt-3 mb-3 font-bold size-18">Output :</p>
+      <iframe src="https://abdulhawari12.github.io/menu-padding/" class="border-none shadow radius-10 height-5"></iframe>
+      </div>
+      <div class="container-fluid padding-top-90" id="card">
+        <h3 class="main-title size-18 text-ungu-muda font-bold">Card</h3>
+        <p class="paragraph size-16 font-regular">
+          
+        </p>
+      </div>
+<script src="js/cssframe.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
